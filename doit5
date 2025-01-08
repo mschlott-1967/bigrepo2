@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Set the base directory where folders will be created
+base_dir="./data_structure5"
+mkdir -p "$base_dir"
+
+# Define a simple list of predefined values for faster "random" data
+#values=("A" "B" "C" "D" "E" "F" "G" "H" "I" "J")
+values=(G97yzpX8HPnbmrVEC0Aoz2si9mlAiCfZmduqw99n MOx9AM3J6rnEQQJCSsWfT7wdOetSni3OV0mrNgho I9zyEumkNRxIzJ9lhMe24gjeuA05krtaF8GygUHD BR0isoSnDlgTmIqukAORkXTz6C9ABpEWp1Yw4Fx6 0tSt4SUsOj8fKBL2OwFTAz878S85snjiNnAx7n8z hBG5vMBqkXoKVhe5nKFmfjAVyNoGHSr22VXcrkoN G0PLr6xT9E96wJTJXQDNB728J4rHnKFKya5jIcwT DboXcHUzjiTnEyfVzMA8hgefX2B7suIPftuPWSyq neo9uYRJVawyUm1nyXvQrJxwVqapvXp6gVg6kwxr nOgJEtffp9e3P1qN9pqUrIZB0WQ9VIdptmx5wtia KRQoG7Z8sG36U18ZAAR2stlaQL964eLD2O6I9TqB RjeZ7AmwCGUdal0ceSgTnIKo4K9f1qncIDpPsGKq a6J2qFmgbFIz33H3JWZfaoO2QJKIUSEf2iGBL190 msz3KvItHQVO9ANbrV16moRVF8upvcynkZxe7PLS Yc116LjufXd16goY7mptXPkmLkaG0ytxZyRFpd6l bOLw45utfXeDHQpCVHf1DaQI0xC9tFXjAMq52nCs ivae5DCt2ou5F1hKuvruFobH2ttk9yD9NDXOVQ6D 0s44e4FdYAjd4T9wp3VtcUicIDcBFUEqPeTKyz30 sRzWIifAZNHuI2HujNCq7q6NVufNWIXclDc1m86V 3uDyrmQnoACV5vCrcsM8qJKPBqDp5qRy7D4vckvm QxuFODqbM7b7rcvxAMCUq5z12wWmv9AUQiKT65vI E6LjAv6QAtyyuEwPVJZq8Auh2JjokCOQodfFAUU4 wTkCX5gqxTyINck0XqciygEo36KXlJHkat8U5ZnJ 2iXai4UYr5ka6rI9yrzIRdTGCgHoNkNxzcVNDaS5 y8FTYxndDTsQvCDp7snfzuBAMPmWd43YWqnzJPsP FkBWdk3ZTfpjyF2ueW9rZrIvtzDEIxsGeSvL2Djj CZQP2Wi5E5JKksBfhjZxjCRMZ9gtQrbDQlOTdz2k DFgWgZy6JZf7jw1iA5XaWnVvnG5mGhueO428KDth gI9x9vgfBKahldM0LaXX4xmyeUU2oROyjq7CF14D 7ZHQmReQnJurkPKt3GdUCVSUzINleI3GNrFI4U60 LXAUvfZ5hf8YflVNpxplJc0SBmJcTL0Y16h2FZju i0orKy2gqp0EzaiZtktWGFSFMmSEIoWsuYAaFNaV x5QUS9VEZ71d4gBBs85k2wg52FreDSju9qbdt6zC urVRri3J5n0bL2BWjgyhdTmombTohTLysskpR1x1 wceiW5yzCgEJRqagYTRFalHdX49uiZFNUGshYMEJ vPHx6CGaOXOtED21W6LZBLTeJJjsA77Y5nepj3a3 aZxnrUc77J9bqQ6JxQqpVsqCYeo4psw6yd9hbf2m ZKgs3Briw3ve9qMoy6XOI3r4S9akHzx8FBEYzalM eQ00pJK6srZtrp73dLMTV4jZOcLxoRHSgL4xwv0h yg9mNCkfPWRELZ2Lq5mjA9zBE2XzZ8DVp0vUFRnk IscaFRep1c2Vye5vlosQnx7sLZidjbnXOxctESBV JmObipmpez4ftnBls5P09z5P8wdq8BwketwnMr9s 5sm2yto4KQc0Eo932mZe9xsHDmhBG4KKVnYP3pOy kKdBNldhAHoVjMegzWl4jEgsBzYerag7zHtQKONO HqtxQ9MzzwgXzGPMvzz2jfTSuzRB0l7bI28OHSb4 8YcjArQOvuNEHCohBXr8Kowbvjc2jRDQuo9BUKcw W79DF1mLuIIdaKO5afm2SdPcwJOB13oBivA34Xrq e6cGbNP7RNPMOT3tbyRjlgxiFvqcQRKnctvqGVy4 EtLCQgHdtNen0TF4erX7OqxqgojJ2WejXkXgFa5h gqGykLgzaSySEuEZAJwDfTQqvOfpEDYlZRmb6RtB RlmtjSMQxyd3UmIz65C012kmybhGbN9i6pxB04wT RWlf1pkx9gri24b4qKLjocZta6yjm8ACNNPN7FW3 Xv5hDwcRy6GZsIPMQs9PkAoTiy5BQ7TMxoeZ1K76 iaFsnHNMPYaOlIgzwHhWXC6FWF7l4MdYI58bpJDe Oz2eZQs7BB0WeQw3nx8g4k5vcM1rxLpdAYwP6Rdb KAVbWl16vetwTrkq2TRhu1HMhohDRW8XVneJVIUL Xg1k3UV3ROF82uLiVQZt4DfKrGEm84VlEDb0UZS9 OrLPCg8bkLSWhIV5yUGXrSsoK0eOTlNNgrt59ooO WoXuMODmLN4H5d5z8Ga66BbCg4V6WbQDspnReQl7 rr0RgdQXqtrvKPGSByQvBFo8QQSzsHFk49r9FWMX SRCVOls4xsr0Cykdjawwr94pVhnHhacRUTFRQESL WzReHaOdqjdC3jEek9s4fWwFZJkZ5JD8eSZUMKeP CiL9BTVHDg1KfMT1OkNsiTDIFLxCjqZcrsWehgRf 0kRpOTiTAQ2qmT5P9tvyBShnSLGMuiDl9HH0FGIG u9pLsoykFfvrgzJZfkuj56iXpFNZPDHGuAoz0e79 7vnmO13Y5pE3FGLixdIWhuXFQDbwQzvC1z6M3o4z QzmTC0AlP6ts845R20xeyMBwqeF5xWQlMWRZ3eVv Vn74ZWqjrRTcl2C3xaEshse8O93EW0CkZ575ZkYh HLwXbiMG90UtNzC8FTeVYU39c6L7eHIowDGzoGEY QkKFgUUPWGpJf6iiB4NWFnA1tjZNaKEjmH4zxrfP JNjPaN7X5f64ByAtr6Uopno9lTx3PlVgnkJbw6YG BToGxbI4dc4cmigjyJyY7145Tka2BWbTXP3j58Uj hYXWpej2T7HR7lmgEkGqryj86L5Cn5eSvL4ShpGx XrIg4BJiVGAeUESJNs52ghkvzhUj02Wlo2NtXjlA YbuddkoOTnkGZwZ8hUt1Z7AajH0upQWdneMX4SQ4 vDIHfckvha1rWMsLqVSqKTHHZhamrEFY2b3QlO28 M5gTc0nuOMrMooj9JjWbEEoHw2E3C9VU1LBJz66y 8TLx9NwV5NyfyAmraaTJnh8IeGLzQr3Dgz0EQMgn K2UFnP0K3QTIhtPNqCVrGsDqo37wVK6NOFJwBW48 NwlTOhkQ8JQiGVm9IKAHANArDvkVXrKQUzKxyDbm V673IYGQRSYCPg8ExxSjwbYy3m4fNVriDkgcHMqG Ooyw5L0kz6aDq31xuz0Nbg5mRdF8Pce77ff4nnRq 49lVoV9emSFkHNJJEm2EvsHbrUtvBlx5oiiMwKzB w9hWNnqtRk82sxzKypa85dBhT4hOSjmFgTf8C5ls 7tzox7dNbygs8FC8OyNvviWnmS6M5lI0AVZQHsUD cB311uSFgDx7TsoGPJWqjpjaH2xZf20se16bgFre YR3tMOVL1uhe6XmBtVZkcBHq6bAASVbCWT1zWA2q Avob3zJiSyI7B4kpzz5eWRLPDrOtc0V90qzYqMwR IISP6URrpQlMeNauVOk8sYZPOs6As6X1sTpmCWre vXjyQroz6NsJPYenrtE6DokrAVH0PgBHQfdVYYlH PttT0zzBwIyxACiKOLxOPpytiB6Jd8hyzAB3kQp9 zMWgDFaeCH2U8gIlQmwUFN2MiLHfbSMqSwT9mPs6 K6BhIf1uYwjN1fFBGJEucFCAOtXja2RFdIqFSlIU SYjnGAlWcT4rGCH1SQP9NliPyCNdUqz6muoRE7Sp x3dMUeTqgSpuK9VcDg6cd0fD2h2gHYqHx1musDk5 5cIaoHogHrib33G1u2uZQOsU9CmZUKHf1y2TtBv1 AyWq7DVTGoBCzZhtGsOjlsVgTipHNQahmdnCJnCm kYR4kNFgHF4dmoXtVw70EHhKMHGUF3ExOhrmhRTi pnFS5pXOEh8N9OQ5mA7v2HIIMry6j2SYAiBVDXJQ hl0R3CAhYoIycGxbhgxiwkM8xDUGmMcwFWf5mnjI)
+
+
+# Generate the folder structure and CSV files
+for i in {1..10}; do
+  outer_folder="$base_dir/$i"
+  mkdir -p "$outer_folder"
+  
+  for j in {1..10}; do
+    inner_folder="$outer_folder/$j"
+    mkdir -p "$inner_folder"
+    
+    # Construct a filename based on the path
+    filename="$inner_folder/${i}_${j}_file.csv"
+    
+    # Generate the CSV file with a fixed pattern
+    {
+      echo "Column1,Column2,Column3,Column4,Column5,Column6"  # CSV header
+      for row in {1..10000}; do
+        # Cycle through `values` for predictable, quick data
+        #echo "${values[$((row % 10))]},${values[$((row % 10))]},${values[$((row % 10))]},$((row % 100)),$((row % 100)),$((row % 100))"
+        echo "${values[$((row % 9))]},${values[$((row % 10))]},${values[$((row % 8))]},${values[$((row % 7))]},${values[$((row % 6))]},${values[$((row % 5))]}"
+      done
+    } > "$filename"
+    
+    echo "Created file: $filename"
+  done
+done
+
+echo "All files have been created.
+
